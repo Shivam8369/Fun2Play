@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games-Arena</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="shortcut icon" type="image/png" href="/images/assassin_logo.png">
+  </head>
+
+  <body>
+    <!-- top banner -->
+    <div class="top-banner">
+      <div class="container">
+        <div class="small-bold-text banner-text">
+          🏆 Hello and Welcome to Games-Arena Let's Play →
+        </div>
+      </div>
+    </div>
+
+    <!-- nav bar -->
+    <header>
+      <a href="#" class="logo">Fun2Play</a>
+
+      <ul class="nav">
+        <li><a href="#home">Home </a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#games">Games</a></li>
+        <!-- <li><a href="#">HowTOPlay?</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <!-- <li><a href="cart.html">Cart</a></li> -->
+        <a class="carts" href="cart.html"> <img src="/images/cart_icon.png" alt="cart"></a>
+        <!-- <li><a href="#">Tokens </a></li> -->
+        
+        <div class="container-boxs">
+          <h1>Token Balance</h1>
+          <div id="coin-container">
+            <div id="coin-count">1000</div>
+          </div>
+        </div>
+
+      </ul>
+
+      <!-- const coinCountElement = document.getElementById("coin-count"); -->
+      
+      <div class="toggleMenu" onclick="toggleMenu();"></div>
+    </header>
+
+    <!--  Home banner -->
+
+    <div class="banner animex" id="home">
+      <div class="bg">
+        <div class="content">
+          <h2>
+            A New Home for <br />
+            Games Lovers
+          </h2>
+          <p>
+            Failure doesn't mean the game is over, it means try again with
+            experience.
+          </p>
+          <a href="#games" class="btn">Let's Play</a>
+        </div>
+        <!-- <img src="/images/assian.png" /> -->
+        <img src="/images/banner3.png" />
+      </div>
+    </div>
+
+    <!-- <hr style="width:100%;text-align:left;margin-left:0; height: 30px; color: aqua;"> -->
+
+    <!-- about section -->
+
+    <div class="about animeX" id="about">
+      <div class="contentBx">
+        <h2>About Us</h2>
+        <p class="text">
+          Fun2Play is the one-stop gaming destination for all your gaming needs.
+          It is a web application that allows users to play a variety of
+          different games all in the same place. The user gets some coins/tokens
+          after he/she wins the game, and he or she can collect them once he/she
+          wins the game. <span class="dots">...</span>
+          <span class="moreText">
+            Once the user collects enough tokens, he can purchase our unique NFT
+            from our store. And then he can sell it to the marketplace as well.
+          </span>
+        </p>
+        <button class="read-more-btn">Read more</button>
+        <!-- <a href="#">Read more</a> -->
+      </div>
+      <img src="/images/console.png" alt="image" />
+    </div>
+
+    <!-- games section -->
+
+    <div class="games animeX" id="games">
+      <h2>Popular Games</h2>
+      <ul>
+        <li class="list active" data-filter="All">All</li>
+        <li class="list" data-filter="Single-Player">Single-Player</li>
+        <li class="list" data-filter="Multi-Player">Multi-Player</li>
+      </ul>
+
+      <div class="cardBx">
+        <div class="card" data-item="Single-Player">
+          <img src="/images/racing.jpg" alt="" />
+          <div class="content">
+            <h4>Racing</h4>
+            <div class="progress-link"><span></span></div>
+            <div class="info">
+              <p>
+                Tokens <br />
+                <span>1000</span>
+              </p>
+              <a href="/games_code/Car-Racer/index.html">Play Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-item="Single-Player">
+          <img src="/images/brick_breaker.png" alt="" />
+          <div class="content">
+            <h4>Brick_Breaker</h4>
+            <div class="progress-link"><span></span></div>
+            <div class="info">
+              <p>
+                Tokens <br />
+                <span>1500</span>
+              </p>
+              <a href="/games_code/brick_bracker/brick.html">Play Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-item="Single-Player">
+          <img src="/images/cube.png" alt="" />
+          <div class="content">
+            <h4>Cube-Master</h4>
+            <div class="progress-link"><span></span></div>
+            <div class="info">
+              <p>
+                Tokens <br />
+                <span>500</span>
+              </p>
+              <a href="/games_code/cube-game/the-cube/dist/index.html">Play Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-item="Multi-Player">
+          <img src="/images/tic_tack.png" alt="" />
+          <div class="content">
+            <h4>tic-tac-toe</h4>
+            <div class="progress-link"><span></span></div>
+            <div class="info">
+              <p>
+                Tokens <br />
+                <span>Free</span>
+              </p>
+              <a href="/games_code/tic_tac_toe/tic.html">Play Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-item="Multi-Player">
+          <img src="/images/dot-game.png" alt="" />
+          <div class="content">
+            <h4>Dots & boxs</h4>
+            <div class="progress-link"><span></span></div>
+            <div class="info">
+              <p>
+                Tokens <br />
+                <span>900</span>
+              </p>
+              <a href="/games_code/Dot-game/index.html">Play Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-item="Multi-Player">
+          <img src="#" alt="" />
+          <div class="content">
+            <h4>coming-soon</h4>
+            <div class="progress-link"><span></span></div>
+            <div class="info">
+              <p>
+                Tokens <br />
+                <span>---</span>
+              </p>
+              <a href="#">Play Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact us -->
+
+    <div class="contact animeX" id="contact">
+      <img src="/images/community.jpg" alt="" />
+
+      <div class="form">
+        <h1>Contact Us</h1>
+
+        <div class="inputBx">
+          <p>Enter Name</p>
+          <input
+            type="text"
+            placeholder="Full Name"
+            name="Enter Name"
+            required
+          />
+        </div>
+
+        <div class="inputBx">
+          <p>Enter Email</p>
+          <input type="text" placeholder="Email-id " name="Email" required />
+        </div>
+
+        <div class="inputBx">
+          <p>Message</p>
+          <textarea
+            name="Message"
+            placeholder="Type here..."
+            required
+          ></textarea>
+        </div>
+
+        <div class="inputBx">
+          <input type="Submit" value="Submit" name="Submit" />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <footer>
+      <div class="info">
+        <a href="#" class="logo">Fun2Play</a>
+        <p> <box-icon name='copyright' color='#ffffff' ></box-icon> 2023 All Rights Reserved</p>
+        <ul>
+          <li><a href="#"> <box-icon name='facebook' color='#ffffff' type='logo' ></box-icon> </a></li>
+          <li><a href="#"> <box-icon name='instagram' color='#ffffff' type='logo' ></box-icon> </a></li>
+          <li><a href="#"> <box-icon name='twitter' color='#ffffff' type='logo' ></box-icon> </a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="extra"></div>
+
+    <script>
+      // read more
+
+      const readMoreBtn = document.querySelector(".read-more-btn");
+      const text = document.querySelector(".text");
+
+      readMoreBtn.addEventListener("click", (e) => {
+        text.classList.toggle("show-more");
+        if (readMoreBtn.innerText === "Read more") {
+          readMoreBtn.innerText = "Read less";
+        } else {
+          readMoreBtn.innerText = "Read more";
+        }
+      });
+
+      // filter games
+      let list = document.querySelectorAll(".list");
+      let card = document.querySelectorAll(".card");
+
+      for (let i = 0; i < list.length; i++) {
+        list[i].addEventListener("click", function () {
+          for (let j = 0; j < list.length; j++) {
+            list[j].classList.remove("active");
+          }
+          this.classList.add("active");
+          let dataFilter = this.getAttribute("data-filter");
+
+          for (let k = 0; k < card.length; k++) {
+            card[k].classList.remove("active");
+            card[k].classList.add("hide");
+
+            if (
+              card[k].getAttribute("data-item") == dataFilter ||
+              dataFilter == "All"
+            ) {
+              card[k].classList.remove("hide");
+              card[k].classList.add("active");
+            }
+          }
+        });
+      }
+
+      // responsive nav-bar 
+      function toggleMenu(){
+        const toggleMenu = document.querySelector('.toggleMenu');
+        const nav = document.querySelector('.nav');
+        toggleMenu.classList.toggle('active')
+        nav.classList.toggle('active')
+      }
+
+      // scrolling animation effect
+      window.addEventListener('scroll',function(){
+        var anime = document.querySelectorAll('.animeX');
+
+        for(var s = 0; s<anime.length; s++){
+          var windowHeight = window.innerHeight;
+          var animeTop = anime[s].getBoundingClientRect().top;
+          var animePoint = 150;
+
+          if(animeTop < windowHeight - animePoint){
+            anime[s].classList.add('active');
+          }
+          else{
+            anime[s].classList.remove('active');
+
+          }
+        }
+      })
+    </script>
+
+  </body>
+</html>
+
+
+
+<!-- http://localhost/FunToPlay/src/index.html -->

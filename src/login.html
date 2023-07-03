@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+  <body>
+    
+    <header>
+      <a href="index.html" class="logo">Fun2Play</a>
+      <div class="toggleMenu" onclick="toggleMenu();"></div>
+    </header>
+    
+
+    <div class="box">
+      <span class="borderLine"></span>
+      
+      <form action="login.py" method="post">
+        <h2>Sign in</h2>
+
+        <div class="inputBox">
+          <input type="email" name="Email" required="required" />
+          <span>Email-id</span>
+          <i></i>
+        </div>
+
+        <div class="inputBox">
+          <input type="password" name="Password" required="required" />
+          <span>password</span>
+          <i></i>
+        </div>
+
+        <div class="links">
+          <a href="#">Forgot Password</a>
+          <a href="sign_up.html">Signup</a>
+          <!-- <h4 class="h4-new">new-user?</h4> -->
+        </div>
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>
