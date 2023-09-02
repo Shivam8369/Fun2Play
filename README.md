@@ -1,6 +1,10 @@
 FunToPlay(A Frontend-Project)
 
+<<<<<<< HEAD
 Build a Responsive-dynamic web-Application were user can play the games on our website.
+=======
+Build  Responsive-dynamic web-Application were user can play the games on our website.
+>>>>>>> 1b4387f660ee2350ec1436f130a634dbeb722360
 It is  user friendly website.
 created different pages like Home-page, login-page, game-section-page, game-store-page
 
