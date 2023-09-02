@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(239, 255, 255);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 12, 245);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(202, 0, 0);
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mycanvas{
+    background-color:rgb(255, 255, 0);
+    margin: 15vh 0 0 28vw;
+}
