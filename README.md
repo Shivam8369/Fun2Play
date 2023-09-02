@@ -2,7 +2,7 @@ FunToPlay(A Frontend-Project)
 
 Build  Responsive-dynamic web-Application were user can play the games on our website.
 It is  user friendly website.
-created different pages like Home-page, login-page, game-section-page, game-store-page 
+created different pages like Home-page, login-page, game-section-page, game-store-page
 
 
 ▬ Home Page
@@ -26,7 +26,7 @@ created different pages like Home-page, login-page, game-section-page, game-stor
 ![img7](https://github.com/Shivam8369/Fun2Play/assets/96806019/ecb55872-a31a-4002-b90f-0c5760f07072)
 
 
-## Technologies-Stack Used
+## Technological-Stack Used
 - HTML5
 - CSS3
 - JavaScript
