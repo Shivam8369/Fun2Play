@@ -127,7 +127,7 @@ header ul li a:hover {
 .container-boxs{
   display: flex;
   display: flow-root;
-  margin-left: 43px;
+  /* margin-left: 43px; */
   margin-top: 10px;
 }
 
@@ -157,7 +157,6 @@ header ul li a:hover {
 /* gaming section */
 
 .games {
-  padding: 0px 100px;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -403,9 +402,9 @@ footer .info ul li:hover  box-icon{
     display: flex ;
   }
 
-  header .nav li{
+  /* header .nav li{
     margin: 20px 0;
-  }
+  } */
 
   header .nav li a{
     font-size: 24px;
