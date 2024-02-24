@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
     margin: 0;
@@ -27,7 +27,7 @@ header {
     background: #1b2141;
     transition: 0.5s;
     z-index: 1000;
-  }
+}
 
 header .logo {
     position: relative;
@@ -36,16 +36,15 @@ header .logo {
     font-size: 1.8em;
     font-weight: 900;
     margin-left: 36px;
-  }
-  
-  header .nav {
+}
+
+header .nav {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 965px;
     font-size: 20px;
-  }
-
+}
 
 .box {
     position: relative;
@@ -63,7 +62,12 @@ header .logo {
     left: -50%;
     width: 380px;
     height: 420px;
-    background: linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff);
+    background: linear-gradient(0deg,
+            transparent,
+            transparent,
+            #45f3ff,
+            #45f3ff,
+            #45f3ff);
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
