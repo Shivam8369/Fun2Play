@@ -2,7 +2,7 @@
 
 Build a Responsive-dynamic web-Application were user can play the games on our website.
 It is  user friendly website.
-created different pages like Home-page, login-page, game-section-page, game-store-pagesdf
+created different pages like Home-page, login-page, game-section-page, game-store-page
 
 
  ###  Home Page
