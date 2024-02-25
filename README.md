@@ -4,7 +4,6 @@ Build a Responsive-dynamic web-Application were user can play the games on our w
 It is  user friendly website.
 created different pages like Home-page, login-page, game-section-page, game-store-page
 
-
  ###  Home Page
 
 ![img1](https://github.com/Shivam8369/Fun2Play/assets/96806019/23b423df-9a11-46f0-9008-6397ddb12008)
