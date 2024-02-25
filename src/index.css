@@ -678,7 +678,13 @@ footer .info ul li:hover  box-icon{
 
 /* responsive design for mobile */
 
-@media  (max-width: 380px){
+@media  (max-width: 450px){
+
+  .banner{
+    overflow: hidden;
+    padding: 0px 24px;
+    height: 600px;
+  }
 
   .banner .bg .content h2 {
     font-size: 2.0em;
@@ -690,7 +696,7 @@ footer .info ul li:hover  box-icon{
   }
 
   .about img {
-    width: 440px;
+    max-width: 440px;
     height: 450px;
   }
   
