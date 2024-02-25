@@ -99,8 +99,9 @@ header .logo {
 }
 
 header .nav {
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 
@@ -582,6 +583,7 @@ footer .info ul li:hover  box-icon{
     left: 0;
     right: 0;
     bottom: 0;
+    padding-top: 70px;
     background: #1b2141;
     display: none;
     width: 80%;
