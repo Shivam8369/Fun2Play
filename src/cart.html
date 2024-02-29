@@ -29,7 +29,7 @@
         <div class="container-boxs">
           <h1>Token Balance</h1>
           <div id="coin-container">
-            <div id="coin-count">1000</div>
+            <p id="coin-count">1000</p>
           </div>
         </div>
 
@@ -43,6 +43,7 @@
       </div>
 
       <div class="cardBx">
+
         <div class="card" data-item="">
           <img src="../images/NFT/NFT_1.jpg" alt="" />
           <div class="content">
@@ -50,7 +51,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span id="coin1">1000</span>
+                <span id="coin">1000</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -68,7 +69,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin2>2000</span>
+                <span coin>2000</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -86,7 +87,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin3>3000</span>
+                <span coin>3000</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -104,7 +105,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin4>3500</span>
+                <span coin>3500</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -122,7 +123,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin5>1500</span>
+                <span coin>1500</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -140,7 +141,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin6>4000</span>
+                <span coin>4000</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -158,7 +159,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin7>5000</span>
+                <span coin>5000</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -176,7 +177,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin8>4400</span>
+                <span coin>4400</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -194,7 +195,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin9>10000</span>
+                <span coin>10000</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -212,7 +213,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin10>3700</span>
+                <span coin>3700</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -230,7 +231,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin11>5900</span>
+                <span coin>5900</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -248,7 +249,7 @@
             <div class="info">
               <p>
                 Tokens <br />
-                <span coin12>5600</span>
+                <span coin>5600</span>
               </p>
 
               <form method="get" action="file.doc">
@@ -260,6 +261,7 @@
         </div>
 
       </div>
+
     </div>
 
     <footer>
@@ -289,32 +291,7 @@
       </div>
     </footer>
 
-    <script>
-      // responsive nav-bar
-      function toggleMenu() {
-        const toggleMenu = document.querySelector(".toggleMenu");
-        const nav = document.querySelector(".nav");
-        toggleMenu.classList.toggle("active");
-        nav.classList.toggle("active");
-      }
-
-      // scrolling animation effect
-      window.addEventListener("scroll", function () {
-        var anime = document.querySelectorAll(".animeX");
-
-        for (var s = 0; s < anime.length; s++) {
-          var windowHeight = window.innerHeight;
-          var animeTop = anime[s].getBoundingClientRect().top;
-          var animePoint = 150;
-
-          if (animeTop < windowHeight - animePoint) {
-            anime[s].classList.add("active");
-          } else {
-            anime[s].classList.remove("active");
-          }
-        }
-      });
-    </script>
+    <script src="./cart.js"></script>
   </body>
 </html>
 
